@@ -1,6 +1,5 @@
 [![](https://img.shields.io/crates/v/themelio-bootstrap)](https://crates.io/crates/themelio-bootstrap)
 ![](https://img.shields.io/crates/l/themelio-bootstrap)
-
 The `themelio-bootstrap` crate contains bootstrap information for Themelio clients. In particular, it provides
 
 - Hardcoded **bootstrap nodes** for joining the auditor peer-to-peer network
