@@ -1,6 +1,6 @@
 [package]
 name = "themelio-bootstrap"
-version = "0.5.1-alpha.0"
+version = "0.5.1"
 edition = "2018"
 description="Trust bootstrapping for Themelio clients"
 license = "ISC"
