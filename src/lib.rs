@@ -6,7 +6,7 @@ use themelio_structs::NetID;
 
 /// DNS seed
 static MAINNET_DNS_SEEDS: Lazy<Vec<SocketAddr>> = Lazy::new(|| {
-    "mainnet-bootstrap.themelio.org:11814"
+    "mainnet-bootstrap.themelio.org:41814"
         .to_socket_addrs()
         .map(|iter| iter.collect::<Vec<_>>())
         .unwrap_or_default()
@@ -14,7 +14,7 @@ static MAINNET_DNS_SEEDS: Lazy<Vec<SocketAddr>> = Lazy::new(|| {
 
 /// DNS seed
 static TESTNET_DNS_SEEDS: Lazy<Vec<SocketAddr>> = Lazy::new(|| {
-    "testnet-bootstrap.themelio.org:11814"
+    "testnet-bootstrap.themelio.org:41814"
         .to_socket_addrs()
         .map(|iter| iter.collect::<Vec<_>>())
         .unwrap_or_default()
