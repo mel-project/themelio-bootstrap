@@ -33,12 +33,12 @@ pub fn bootstrap_routes(network: NetID) -> Vec<SocketAddr> {
 pub fn checkpoint_height(network: NetID) -> Option<TrustedHeight> {
     match network {
         NetID::Mainnet => Some(
-            "1000388:d02bda605c12374714524b49411535a5e31e59fd7c0deba8727512dbbfaa6b2d"
+            "1581184:95c7afa1a1ee3b7d050bdb601a946b2fb2306412aa0ab73322d53cba6da81c1b"
                 .parse()
                 .unwrap(),
         ),
         NetID::Testnet => Some(
-            "3737:0ef0a61a67fb56f9b05e38a90b4a9f2d565963ee1e1b749f84bbc43c02e9f306"
+            "72:f019035a08513da87eaec538e9f685b0c4ec72013bbfccb45ecf57d89d9d0efa"
                 .parse()
                 .unwrap(),
         ),
