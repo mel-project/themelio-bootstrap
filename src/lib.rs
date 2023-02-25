@@ -33,7 +33,7 @@ pub fn bootstrap_routes(network: NetID) -> Vec<SocketAddr> {
 pub fn checkpoint_height(network: NetID) -> Option<Checkpoint> {
     match network {
         NetID::Mainnet => Some(
-            "1581184:95c7afa1a1ee3b7d050bdb601a946b2fb2306412aa0ab73322d53cba6da81c1b"
+            "1959796:3790ffdfd3fb5e46432732a5433b18d2e9847d6e80b229f85a139c81aead75af"
                 .parse()
                 .unwrap(),
         ),
