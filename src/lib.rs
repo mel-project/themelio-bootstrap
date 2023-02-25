@@ -2,7 +2,7 @@ use std::net::{SocketAddr, ToSocketAddrs};
 
 use once_cell::sync::Lazy;
 
-use themelio_structs::{Checkpoint, NetID};
+use melstructs::{Checkpoint, NetID};
 
 /// DNS seed
 static MAINNET_DNS_SEEDS: Lazy<Vec<SocketAddr>> = Lazy::new(|| {
