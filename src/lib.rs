@@ -14,7 +14,7 @@ static MAINNET_DNS_SEEDS: Lazy<Vec<SocketAddr>> = Lazy::new(|| {
 
 /// DNS seed
 static TESTNET_DNS_SEEDS: Lazy<Vec<SocketAddr>> = Lazy::new(|| {
-    "testnet-bootstrap.themelio.org:41814"
+    "testnet.p2p-bootstrap.melproject.org:41814"
         .to_socket_addrs()
         .map(|iter| iter.collect::<Vec<_>>())
         .unwrap_or_default()
