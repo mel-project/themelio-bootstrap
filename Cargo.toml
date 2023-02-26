@@ -2,9 +2,9 @@
 name = "melbootstrap"
 version = "0.8.3"
 edition = "2018"
-description="Trust bootstrapping for Themelio clients"
+description="Trust bootstrapping for Mel clients"
 license = "ISC"
-authors = ["nullchinchilla <nullchinchilla@pm.me>", "Themelio Labs"]
+
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
