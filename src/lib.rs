@@ -38,7 +38,7 @@ pub fn checkpoint_height(network: NetID) -> Option<Checkpoint> {
                 .unwrap(),
         ),
         NetID::Testnet => Some(
-            "72:f019035a08513da87eaec538e9f685b0c4ec72013bbfccb45ecf57d89d9d0efa"
+            "2:37dc9fdefd1b58b332ac70bf2e78dd6aaa0980de5168be786f136d0fedf228a1"
                 .parse()
                 .unwrap(),
         ),
