@@ -1,7 +1,7 @@
 [package]
 name = "melbootstrap"
-version = "0.8.3"
-edition = "2018"
+version = "0.8.5"
+edition = "2021"
 description="Trust bootstrapping for Mel clients"
 license = "ISC"
 
