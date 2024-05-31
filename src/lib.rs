@@ -51,7 +51,7 @@ pub fn checkpoint_height(network: NetID) -> Option<Checkpoint> {
 
     match network {
         NetID::Mainnet => Some(
-            "3210987:ad52471737a6024eca60a5b6e0ab6e699b8a653ec3851cb329bd6459e96e131c"
+            "1:c6e2b5b2f8f83d148f2e65ab141c83c49dafb9a36ce0b67048795f0c34414ce3"
                 .parse()
                 .unwrap(),
         ),
