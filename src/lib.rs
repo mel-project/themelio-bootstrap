@@ -6,7 +6,7 @@ use melstructs::{Checkpoint, NetID};
 
 /// DNS seed
 static MAINNET_DNS_SEEDS: Lazy<Vec<SocketAddr>> = Lazy::new(|| {
-    "mainnet.p2p-bootstrap.melproject.org:41814"
+    "62.210.93.59:41814"
         .to_socket_addrs()
         .map(|iter| iter.collect::<Vec<_>>())
         .unwrap_or_default()
